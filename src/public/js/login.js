@@ -91,7 +91,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
     const uid = cred.user.uid;
 
     // Admin shortcut
-    if (email === "admin@gmail.com" && pass === "admin123") {
+    if (email === "mmanoorkar9@gmail.com" && pass === "admin123") {
       const userData = {
         uid,
         email: cred.user.email,
