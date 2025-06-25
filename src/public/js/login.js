@@ -99,7 +99,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
       };
       sessionStorage.setItem("loggedUser", JSON.stringify(userData));
       localStorage.setItem("loggedUser", JSON.stringify(userData));
-      window.location.href = "/public/admin.html";
+      window.location.href = "admin.html";
       return;
     }
 
