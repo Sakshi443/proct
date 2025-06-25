@@ -56,7 +56,7 @@
 
     // 🛡️ Guard: only admin can access
     onAuthStateChanged(auth, user => {
-      if (!user || user.email !== "admin@gmail.com") {
+      if (!user || user.email !== "mmanoorkar@gmail.com") {
         location.href = "index.html";
       } else {
         loadPending();
